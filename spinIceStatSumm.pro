@@ -28,4 +28,6 @@ DISTFILES += \
     statSumm12Parts.nb \
     README.md \
     res/statSumm2Parts.png \
-    res/statSumm12Parts.png
+    res/statSumm12Parts.png \
+    heatPeak.nb \
+    res/heatPeak.png
