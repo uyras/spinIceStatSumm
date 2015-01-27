@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     10821,        235]
-NotebookOptionsPosition[     10475,        218]
-NotebookOutlinePosition[     10812,        233]
-CellTagsIndexPosition[     10769,        230]
+NotebookDataLength[     11057,        241]
+NotebookOptionsPosition[     10711,        224]
+NotebookOutlinePosition[     11048,        239]
+CellTagsIndexPosition[     11005,        236]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -59,11 +59,14 @@ Cell[BoxData[
      RowBox[{"0", ",", "0.05"}], "}"}]}], ",", " ", 
    RowBox[{"AxesLabel", "\[Rule]", 
     RowBox[{"{", 
-     RowBox[{"\"\<T (k)\>\"", ",", "\"\<C\>\""}], "}"}]}]}], "]"}]], "Input",
+     RowBox[{"\"\<T (k)\>\"", ",", "\"\<C\>\""}], "}"}]}], ",", 
+   RowBox[{"AspectRatio", "\[Rule]", 
+    RowBox[{"1", "/", "2"}]}]}], "]"}]], "Input",
  CellChangeTimes->{{3.631227592233387*^9, 3.631227676192656*^9}, {
   3.631255238164694*^9, 3.631255297286439*^9}, {3.631311967460849*^9, 
   3.6313119741665373`*^9}, {3.6313120421992702`*^9, 3.6313120803591557`*^9}, {
-  3.631313520837792*^9, 3.631313528919441*^9}}],
+  3.631313520837792*^9, 3.631313528919441*^9}, {3.631314093812415*^9, 
+  3.631314106497678*^9}, {3.631314162517168*^9, 3.631314168259946*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{{}, {}, 
@@ -189,7 +192,8 @@ kcsOvM+fbfx8gEy5caOuoofNDuSMfk5P65MpsaLU2qk/tuArtYyyy5BMeTCg
     LineBox[{{1022.3300761146597`, 0.}, {1042.7765760043003`, 
      1.4210854715202004`*^-14}, {1058.1114509215308`, 0.}}], 
     LineBox[{{1656.1715726935167`, 0.}, {1717.5110723624382`, 0.}}]}},
-  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  AspectRatio->NCache[
+    Rational[1, 2], 0.5],
   Axes->{True, True},
   AxesLabel->{
     FormBox["\"T (k)\"", TraditionalForm], 
@@ -202,6 +206,7 @@ kcsOvM+fbfx8gEy5caOuoofNDuSMfk5P65MpsaLU2qk/tuArtYyyy5BMeTCg
   GridLines->{None, None},
   GridLinesStyle->Directive[
     GrayLevel[0.5, 0.4]],
+  ImageSize->{1019., 499.},
   Method->{"DefaultBoundaryStyle" -> Automatic, "ScalingFunctions" -> None},
   PlotRange->{{0., 199999.99591836738`}, {0, 0.05}},
   PlotRangeClipping->True,
@@ -213,7 +218,8 @@ kcsOvM+fbfx8gEy5caOuoofNDuSMfk5P65MpsaLU2qk/tuArtYyyy5BMeTCg
    3.631227673076305*^9, 3.631227678429352*^9}, 3.631227732630172*^9, {
    3.6312552353455257`*^9, 3.631255298352953*^9}, {3.631311956829439*^9, 
    3.631311974775071*^9}, {3.631312070748332*^9, 3.631312080910159*^9}, {
-   3.631313533191004*^9, 3.631313537265517*^9}}]
+   3.631313533191004*^9, 3.631313537265517*^9}, {3.631314169676167*^9, 
+   3.631314175775074*^9}}]
 }, Open  ]]
 },
 WindowSize->{1301, 744},
@@ -234,8 +240,8 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 802, 27, 99, "Input"],
 Cell[CellGroupData[{
-Cell[1385, 51, 646, 14, 32, "Input"],
-Cell[2034, 67, 8425, 148, 232, "Output"]
+Cell[1385, 51, 816, 17, 32, "Input"],
+Cell[2204, 70, 8491, 151, 514, "Output"]
 }, Open  ]]
 }
 ]

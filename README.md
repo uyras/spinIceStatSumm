@@ -11,7 +11,7 @@
 В statSumm12Parts.nb хранится статсумма для 12 частиц и построен график теплоемкости.
 
 Теплоемкость для 2 частиц
-![e](res/statSumm2Parts.svg)
+![e](res/statSumm2Parts.png)
 
 Теплоемкость для 12 частиц
-![e](res/statSumm12Parts.svg)
+![e](res/statSumm12Parts.png)

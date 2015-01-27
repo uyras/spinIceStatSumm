@@ -27,5 +27,5 @@ DISTFILES += \
     statSumm2Parts.nb \
     statSumm12Parts.nb \
     README.md \
-    res/statSumm2Parts.svg \
-    res/statSumm12Parts.svg
+    res/statSumm2Parts.png \
+    res/statSumm12Parts.png
